@@ -106,4 +106,3 @@ class RestaurantSerializer(serializers.ModelSerializer):
         fields = ['id', 'restaurant_name', 'address', 'city', 'country', 'website_link', 'contact_number']
         read_only_fields = ['id']
 ```
-
